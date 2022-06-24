@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen to new music</title>
+    <script defer src="index.js"></script>
+    <script src="key.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="overlay hidden">
+        <div class="display"></div>
+    </div>
+    <header>
+        <img src='https://i1.sndcdn.com/avatars-000646870995-fsg8na-t500x500.jpg'>
+
+        <h2>Search by genre or by artist to broaden your musical horizons</h2>
+        <div class="search">
+            <form>
+                <label for="genre">Genre:</label>
+                <input type="text" id="genreS">
+                <input type="submit">
+            </form>
+            <form class="formArtist">
+                <label for="search">Artist:</label>
+                <input type="text" id="searchS">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+    <div class="musicContainer">
+        <div class="title1 hidden"></div>
+        <div class="musicResults"></div>
+    </div>
+    <div class="playlistContainer">
+        <div class="title2 hidden"></div>
+        <div class="playlists"></div>
+    </div>
+    <div class="relatedContainer">
+        <div class="title3 hidden"></div>
+        <div class="relatedArtists"></div>
+    </div>
+    <div class="myMusicContainer">
+        <div class="title4 hidden"></div>
+        <div class="myMusic"></div>
+    </div>
+</body>
+
+</html>
